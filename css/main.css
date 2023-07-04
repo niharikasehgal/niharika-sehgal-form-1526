@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+legend {
+    height: auto;
+    background-color: white;
+    text-decoration: solid;
+    margin-left: 10px;
+    font-size: 2rem;
+    padding: 10px;
+    border: 3px solid #DDD;
+}
+
+.theForm {
+    max-width: 40rem;
+    margin: auto;
+
+}
+
+form {
+    padding: 20px 0;
+}
+
+
+.box01 {
+
+    color: black;
+}
+
+.headbox {
+    margin: 3rem;
+    background-color: #F5F5F5;
+}
+
+p {
+    color: #ffffff;
+}
+
+.details {
+    display: block;
+}
+
+p,
+input,
+textarea,
+label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 10px 0;
+
+}
+
+input,
+textarea {
+    background-color: white;
+
+}
+
+input[type=text] {
+    width: 25rem;
+}
+
+input[type=button] {
+    width: 25rem;
+    padding: 15px 0;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #6495ED;
+
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #000000;
+}
+
+fieldset {
+    background-color: #F5F5F5;
+    display: flex;
+    max-width: 50rem;
+    border-radius: 3px;
+
+}
+
+@media screen and (min-width: 40rem) {
+    input[type=button] {
+        width: 40rem;
+
+    }
+
+    form {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .headbox {
+        margin: 2rem;
+
+    }
+
+    fieldset {
+        width: auto;
+        height: auto;
+
+    }
+
+    .details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6rem;
+    }
+
+}
